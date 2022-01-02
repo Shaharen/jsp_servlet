@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원 가입</title>
+</head>
+<body>
+	<form action="Join" method="post">
+		<table width="300px" align="center">
+			<tr>
+				<td>ID</td>
+				<td><input type="text" name="ID"></td>
+			</tr>
+			<tr>
+				<td>PW</td>
+				<td><input type="password" name="PW"></td>
+			</tr>
+			<tr>
+				<td>NAME</td>
+				<td><input type="text" name="NAME"></td>
+			</tr>
+			<tr>
+				<td>EMAIL</td>
+				<td><input type="text" name="EMAIL"></td>
+			</tr>
+			<tr>
+				<td>TEL</td>
+				<td><input type="text" name="TEL"></td>
+			</tr>
+			<tr>
+				<td>GENDER</td>
+				<td>MAN <input type="radio" name="GENDER" value="MAN">
+					WOMEN <input type="radio" name="GENDER" value="WOMEN">
+				</td>
+			</tr>
+			<tr>
+				<td>HOBBY</td>
+				<td>SPORT<input type="checkbox" name="HOBBY" value="SPORT">
+					STUDY<input type="checkbox" name="HOBBY" value="STUDY">
+					EATING<input type="checkbox" name="HOBBY" value="EATING"></td>
+			</tr>
+			<tr>
+				<td>BIRTHDAY</td>
+				<td><input type="date" name="BIRTHDAY"></td>
+			</tr>
+			<tr>
+				<td>COLOR</td>
+				<td><input type="color" name="COLOR"></td>
+			</tr>
+			<tr>
+				<td>COUNTRY</td>
+				<td><select name="COUNTRY">
+						<option value="choice">choice</option>
+						<option value="Korea">Korea</option>
+						<option value="USA">USA</option>
+						<option value="China">China</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>TALK</td>
+				<td><textarea rows="5" name="TALK"></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><input type="submit"
+					value="Join"> <input type="reset" value="reset"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
