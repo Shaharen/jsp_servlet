@@ -33,7 +33,7 @@ public class Ex09Join extends HttpServlet {
 		String country = request.getParameter("COUNTRY");
 		String talk = request.getParameter("TALK");
 		
-		out.print("<html><head><title>È¸¿ø Á¤º¸</title></head>");
+		out.print("<html><head><title>íšŒì› ì •ë³´</title></head>");
 		out.print("<body>");
 		out.print("ID : "+ id +"<br>");
 		out.print("PW : "+ pw +"<br>");
